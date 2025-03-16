@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Fudoku</h1>
+      <p>
+        Fudoku is a game of great skill. One plays it by solving a puzzle. The
+        game rules are basically the same as for Sudoku.
+      </p>
+      <div class="button-cluster">
+        <label for="difficulty">Level:</label>
+        <select name="difficulty" id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+        <button id="new-puzzle">New Puzzle</button>
+        <!-- <button id="solution">Solution</button> -->
+        <!-- <button id="hint">Hint</button> -->
+      </div>
+      <div class="board" id="board"></div>
+    </div>
+  </body>
+  <script src="fudoku.js"></script>
+</html>
